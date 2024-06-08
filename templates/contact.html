@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{.Title}}</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>{{.Heading}}</h1>
+        <p>{{.Message}}</p>
+        <form>
+            <input type="text" placeholder="Your name">
+            <input type="email" placeholder="Your email">
+            <textarea placeholder="Your message"></textarea>
+            <button type="submit">{{.ButtonText}}</button>
+        </form>
+    </div>
+</body>
+</html>
